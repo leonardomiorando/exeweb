@@ -1,0 +1,97 @@
+/* Folha CSS */
+
+body {
+    
+    background-color: black;
+    color:rgb(142, 140, 140);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    list-style-type:none;
+    align-items: flex-end;
+    padding: 0%;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+
+}
+h2{
+    color: rgb(179, 179, 179);
+    
+    }
+a{
+    text-decoration: none;
+    color:  rgb(104, 122, 203); 
+    font-size: 110%;
+}
+nav{
+    padding: 0% 20%;
+   
+    
+}
+nav a:hover{
+    color: rgb(168, 55, 178); 
+
+}
+
+.texto_direita{
+    text-align: right;
+}
+
+img{
+    width: 170px;
+    height: 130px;
+
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizar{
+    text-align: center;
+
+}
+
+.texto_direita{
+    text-align: right;
+}
+
+.texto_esquerda{
+    text-align: left;
+    
+}
+
+.conteudo{  
+    padding: 0% 5%;
+}
+
+.pagina{
+    padding: 5% 15%;
+}
+
+.nome{
+    padding: 0% 10%;
+}
+
+.cabeca{
+    display:flex;
+}
+
+footer{
+
+    color: grey;
+    font-style: italic;
+
+}
+.linha{
+    display: block;
+    border-color:  rgba(104, 122, 203, 0.285);
+
+}
